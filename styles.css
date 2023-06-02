@@ -11,6 +11,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  float: left;
 }
 
 ul {
@@ -28,10 +29,6 @@ ul {
   align-items: center;
 }
 
-li {
-  float: left;
-}
-
 li a {
   display: block;
   color: rgb(45, 67, 128);
@@ -47,4 +44,9 @@ li a:hover {
 
 li:last-child {
   border-right: none;
+}
+
+img {
+  width: 400px;
+  height: 400px;
 }
